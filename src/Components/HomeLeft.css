@@ -1,0 +1,70 @@
+/* HomeLeft.css */
+.HomeLeft_main {
+  /* height: 600px; */
+  height: 37.5rem;
+  /* width: 392px; */
+  padding: 0.125rem;
+  overflow-y: auto;
+  /* max-height: calc(100vh - 100px);  */
+  margin-left: 2.5rem;
+  margin-top: 6.25rem;
+  /* border: 3px solid black; */
+}
+.groupname_div {
+  padding: 0.125rem;
+  display: flex;
+  margin-top: 1rem;
+}
+.groupname_circle {
+  height: 3.75rem;
+  width: 3.75rem;
+  border-radius: 50%;
+  color: white;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#grp_name {
+  font-size: 1.25rem;
+  margin-left: 1.25rem;
+  margin-top: 1.0625rem;
+}
+
+
+/* .addbutton {
+  position: absolute;
+  left: 20.9375rem;
+  font-size: 3.75rem;
+  top: 35rem;
+  border-radius: 50%;
+  height: 4.375rem;
+  width: 4.375rem;
+  color: aliceblue;
+  background-color: blue;
+  border: 1px solid blue;
+} */
+.addbutton {
+  position: absolute;
+  left: 20%; 
+  top: 80%; 
+  font-size: 4.375rem; 
+  border-radius: 50%;
+  height: 4.375rem; 
+  width: 4.375rem; 
+  color: aliceblue;
+  background-color: blue;
+  border: 1px solid blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*                                                         */
+@media (max-width:769px) {
+  .HomeLeft_main {
+      width: 100vw;
+  }
+  html {
+    font-size: 16px;
+  }
+}

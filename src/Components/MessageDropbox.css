@@ -1,0 +1,100 @@
+MessageDropbox.css
+
+.message-dropbox {
+  background-color: #f0f0f0;
+  border-radius: 0.3125;
+  /* height: 100vh; */
+  height: calc(100vh - 100px);
+  width: 100vw;
+}
+
+.message-display {
+  /* height: 378px; */
+  overflow-y: auto;
+  padding: 1.5625rem;
+  background-color: #dae5f5;
+}
+
+.message {
+  background-color: #ffffff;
+  border-radius: 0.625rem;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  text-align: start;
+  overflow-wrap: break-word;
+}
+
+.message-input {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 8.75rem;
+  padding: 1.5rem;
+  background-color: #001f8b;
+}
+.message-input_innerbox {
+  background-color: #f0f0f0;
+  height: 8.75rem;
+  border-radius: 0.5rem;
+}
+
+.message-input input {
+  height: 6.25rem;
+  margin-top: 0.125rem;
+  /* width: 910px; */
+  width: 100%;
+  
+  border: none;
+  outline: none;
+  word-wrap: break-word;
+  overflow-y: scroll;
+  background-color: #f0f0f0;
+}
+
+.message-input input[type="text"]::placeholder {
+  position: relative;
+  top: -1.25rem;
+  left: 1.25rem;
+  font-size: 1.25rem;
+  text-align: start;
+}
+
+.message-input button:hover {
+  background-color: #128c7e;
+}
+/* #ini {
+  margin-top: 12px;
+} */
+#grp_div {
+  background-color: #001f8b;
+  padding: 0.3125rem;
+  display: flex;
+  height: 3.875;
+}
+#timestamp {
+  position: relative;
+  left: 43.75rem;
+}
+#send_button {
+  height: 1.25rem;
+  position: absolute;
+  bottom: 1.875rem;
+  right: 2.5rem;
+}
+button.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+#Dropboxgrp_name{
+  color: white;
+  font-size: 1.25rem;
+  margin-left: 1.25rem;
+  margin-top: 1rem;
+}
+/*                        */
+@media (max-width:769px) {
+  .message-dropbox {
+      width: 100vw;
+  }
+}

@@ -1,0 +1,76 @@
+/* Modal.css */
+body.active-modal {
+  overflow-y: hidden;
+}
+
+.btn-modal {
+  padding: 0.625rem 1.5rem;
+  display: block;
+  margin: 6.25rem auto 0;
+  font-size: 1.125rem;
+}
+
+.modal,
+.overlay {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+}
+
+.overlay {
+  background: rgba(49, 49, 49, 0.8);
+}
+.modal-content {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  line-height: 1.4;
+  background: #f1f1f1;
+  padding: 0.875rem 1.75rem;
+  border-radius: 0.1875rem;
+  max-width: 37.5rem;
+  min-width: 18.75rem;
+  padding-top: 1.875rem;
+}
+
+.close-modal {
+  position: absolute;
+  top: 0.625rem;
+  right: 0.625rem;
+  padding: 0.3125rem 0.4375rem;
+}
+/*  */
+.groupName_div {
+  display: flex;
+  margin-top: 1.25rem;
+}
+.chooseColour_div {
+  display: flex;
+  margin-top: 1.5625rem;
+  margin-bottom: 1.25rem;
+}
+.colourRound {
+  height:  1.5625rem;
+  width:  1.5625rem;
+  border-radius: 50%;
+  margin-left: 0.625rem;
+}
+.createButton {
+  background-color: #001f8b;
+  color: #f1f1f1;
+  padding: 0.3125rem;
+  width: 6.25rem;
+  border-radius: 0.75rem;
+  margin-left: 20.625rem;
+}
+#groupname {
+  border-radius: 0.625rem;
+  padding: 0.3125rem;
+  /* font-size: 20px; */
+}
+/*                                          */

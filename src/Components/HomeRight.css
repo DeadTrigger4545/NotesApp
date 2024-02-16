@@ -1,0 +1,33 @@
+/* HomeRight.css */
+.HomeRight_main {
+  margin-top: 8.125rem;
+}
+#notes-home_img {
+  height: 15.625rem;
+  width: 28.125rem;
+  position: relative;
+  right: 1.25rem;
+}
+#notes-home_h1 {
+  font-size: 2.1875rem;
+}
+.notes-home_para {
+  margin-top: 0.625rem;
+}
+#lock_para{
+  position: absolute;
+  left: 41%;
+  top:90%;
+}
+
+@media (max-width: 1020px) {
+  .HomeRight_main {
+    display: none;
+  }
+}
+
+/* @media (min-width: 769px) {
+  html {
+    font-size: 16px; 
+  }
+} */

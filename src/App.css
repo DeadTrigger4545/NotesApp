@@ -1,0 +1,30 @@
+/* App.css */
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.main {
+  display: flex;
+  height: 100vh;
+}
+
+.left {
+  height: 100%;
+  width: 27.1875rem;
+  background-color: rgb(241, 244, 238);
+}
+
+.right {
+  height: 100%;
+  position: absolute;
+  left: 27.1875rem;
+  width: calc(100% - 27.1875rem);
+  background-color: #dae5f5;
+
+  text-align: center;
+}
+/*  */
+
